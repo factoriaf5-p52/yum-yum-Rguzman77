@@ -1,0 +1,27 @@
+ #first_bar {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    justify-content: flex-start;
+    justify-items: center;
+    background-color: white;
+    flex-direction: row;
+
+ }
+ #text_under_logo {
+    
+    
+
+ }
+ #shopping_options{
+    
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    justify-content: flex-end;
+    justify-items: center;
+    background-color: white;
+    flex-direction: row;
+ }
