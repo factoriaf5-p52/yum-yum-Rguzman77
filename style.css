@@ -1,38 +1,38 @@
+/*GENERALS*/
 html {
-   background-color: blueviolet;
-   font-size: 18px;
    font-family:  "Intro", "Sans-serif";
    color: darkgrey;
-   font-size: 50%;
+   font-size: 62.5%;
+   box-sizing: border-box;}
+
+*,*:before, *:after{
+  box-sizing: inherit;
 }
- 
- #first_bar {
-   background-color: aqua;
-    width: fit-content;
-    display: flex;
-    align-items: center;
-    align-content: space-around;
-    justify-content: flex-start;
-    justify-items: center;
-    
-    flex-direction: row;
+body{
+  font-size: 16px;
+  background-color: white;
+}
 
- }
- #text_under_logo {
-   background-color: aquamarine;
-    
-    
+.container{
+  max-width: 1200px;
+  width: 85%;
+  margin: 0 auto;
 
- }
- #shopping_options{
-   background-color: bisque;
-    
-    width: fit-content;
-    display: flex;
-    align-items: center;
-    align-content: space-around;
-    justify-content: flex-end;
-    justify-items: center;
-    
-    flex-direction: row;
- }
+}
+
+/*HEADER*/
+
+.logo{
+  
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem auto;
+
+}
+.nav{
+
+}
