@@ -1,38 +1,42 @@
 /*GENERALS*/
-html {
-   font-family:  "Intro", "Sans-serif";
-   color: darkgrey;
-   font-size: 62.5%;
-   box-sizing: border-box;}
+* {
+  font-family: "Intro", "Sans-serif";
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-*,*:before, *:after{
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
-body{
+body {
   font-size: 16px;
   background-color: white;
 }
 
-.container{
+.container {
   max-width: 1200px;
   width: 85%;
   margin: 0 auto;
-
 }
 
 /*HEADER*/
 
-.logo{
-  
+.logo {
 }
-.header{
+.header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   margin: 1rem auto;
-
 }
-.nav{
-
+.nav {
+  filter: opacity(50%);
+  display: flex;
+  justify-content: flex-end;
+}
+a {
 }
