@@ -40,3 +40,25 @@ body {
 }
 a {
 }
+#pin {
+  fill: orange;
+}
+#bbq {
+  fill: orange;
+}
+.input {
+}
+
+#orderfrom {
+  font-size: large;
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+#fillform{
+  display: flex;
+  
+}
+main {
+  background: linear-gradient(to bottom, yellow, green);
+}
