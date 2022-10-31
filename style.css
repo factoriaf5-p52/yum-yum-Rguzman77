@@ -28,10 +28,9 @@ body {
   padding-right: 50px;
   white-space: nowrap;
 }
-#text_under_logo{
-  color:grey;
-  font-size:small;
-
+#text_under_logo {
+  color: grey;
+  font-size: small;
 }
 .header {
   display: flex;
@@ -48,35 +47,55 @@ body {
 }
 a {
 }
-#coverimage{
-  margin:0;
-  padding:0;
+#coverimage {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 #pin {
-  fill: orange;
+  filter: invert(52%) sepia(78%) saturate(1690%) hue-rotate(333deg)
+    brightness(103%) contrast(96%);
 }
 #bbq {
-  fill: orange;
+  filter: invert(52%) sepia(78%) saturate(1690%) hue-rotate(333deg)
+    brightness(103%) contrast(96%);
 }
 .input {
 }
 
 #orderfrom {
-  font-size: large;
+  font-size: xx-large;
   display: flex;
   color: white;
   justify-content: center;
 }
-#fillform{
+form {
   display: flex;
-  flex-direction:column;
-  align-items:center;
-
-
+  flex-direction: column;
+  align-items: center;
+}
+#find_a_food {
+  background-color: orange;
+  border-color: orange;
+  color: white;
+  width: 100px;
+  height: 25px;
+  border-style: hidden;
 }
 main {
   background: linear-gradient(to bottom, yellow, green);
+}
+.li {
+}
+#howitworks {
+  margin-left: 50px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-self: center;
+  justify-self: center;
+}
+.instructions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
