@@ -99,3 +99,54 @@ main {
   align-items: center;
   justify-content: center;
 }
+section {
+  background-color: beige;
+  color: orange;
+}
+#description_container {
+  max-width: 300px;
+  max-height: 250px;
+}
+#descriptionbox {
+  max-width: 300px;
+  max-height: 150px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: white;
+}
+h5 {
+  color: grey;
+}
+#pricebox {
+  max-width: 300px;
+  max-height: 100px;
+  color: black;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#buynowbutton {
+  background: green;
+  border-style: none;
+  color: white;
+  font-style: italic;
+}
+#votingflex {
+  max-width: 300px;
+  max-height: 50px;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+  margin-left: ;
+}
+#ratingbox {
+  color: grey;
+  display: flex;
+  font-size: x-small;
+}
