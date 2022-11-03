@@ -48,6 +48,7 @@ body {
 a {
 }
 #coverimage {
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,6 +65,8 @@ a {
 }
 
 #orderfrom {
+  padding-top: 100px;
+  padding-bottom: 30px;
   font-size: xx-large;
   display: flex;
   color: white;
@@ -73,16 +76,16 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+  padding-bottom: 50px;
+  }
 #find_a_food {
+  
   background-color: orange;
   border-color: orange;
   color: white;
-  width: 100px;
-  height: 25px;
-  border-style: hidden;
+  border-radius: 5%;
 }
-main {
+section {
   background: linear-gradient(to bottom, yellow, green);
 }
 .li {
@@ -104,10 +107,12 @@ section {
   color: orange;
 }
 #description_container {
+  
   max-width: 300px;
   max-height: 250px;
 }
 #descriptionbox {
+  
   max-width: 300px;
   max-height: 150px;
   color: black;
@@ -134,6 +139,11 @@ h5 {
   border-style: none;
   color: white;
   font-style: italic;
+  border-radius: 5%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 #votingflex {
   max-width: 300px;
